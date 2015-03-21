@@ -44,9 +44,9 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
 
   TEX.Macro("P", "\\op{P}");
   TEX.Macro("J", "\\op{J}");
-  TEX.Macro("CRE", "\\op{\mathcal{E}}");
-  TEX.Macro("GCRE", "\\op{\mathcal{E^\prime}}");
-  TEX.Macro("RE", "\\op{H_{\alpha}}");
+  TEX.Macro("CRE", "\\op{\\mathcal{E}}");
+  TEX.Macro("GCRE", "\\op{\\mathcal{E^\\prime}}");
+  TEX.Macro("RE", "\\op{H_{\\alpha}}");
   TEX.Macro("TE", "\\ope{S_q}");
 
   TEX.Macro("xH", "\\op{xH}");
