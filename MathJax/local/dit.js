@@ -37,14 +37,21 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
   TEX.Macro("T", "\\op{T}");
   TEX.Macro("B", "\\op{B}");
   TEX.Macro("R", "\\op{R}");
-  TEX.Macro("K", "\\op{K}");
   TEX.Macro("II", "\\op{II}");
-  TEX.Macro("P", "\\op{P}");
-  TEX.Macro("DKL", "\\op{D_{KL}}");
-  TEX.Macro("xH", "\\op{xH}");
-  TEX.Macro("JSD", "\\op{JSD}");
-  TEX.Macro("J", "\\op{J}");
   TEX.Macro("TSE", "\\op{TSE}");
+
+  TEX.Macro("K", "\\op{K}");
+
+  TEX.Macro("P", "\\op{P}");
+  TEX.Macro("J", "\\op{J}");
+  TEX.Macro("CRE", "\\op{\mathcal{E}}");
+  TEX.Macro("GCRE", "\\op{\mathcal{E^\prime}}");
+  TEX.Macro("RE", "\\op{H_{\alpha}}");
+  TEX.Macro("TE", "\\ope{S_q}");
+
+  TEX.Macro("xH", "\\op{xH}");
+  TEX.Macro("DKL", "\\op{D_{KL}}");
+  TEX.Macro("JSD", "\\op{D_{JS}}");
 
   // some binary operators
   TEX.Macro("meet", "\\curlywedge");
@@ -52,6 +59,7 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
   TEX.Macro("iless", "\\preceq");
   TEX.Macro("imore", "\\succeq");
   TEX.Macro("ieq", "\\cong");
+  TEX.Macro("mss", "\\searrow");
 
   // don't use stix, it's pretty ugly
   MathJax.Hub.Config({
